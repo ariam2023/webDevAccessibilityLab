@@ -55,10 +55,11 @@ nav ul li a {
 section img {
   width: 100%;
   height: auto;
+  margin-left: 90px;
 }
-.resize-image{
-  max-width: 80%;
-  max-height: 400px;
+.resize-img{
+  width: 400px;
+  max-height: 300px;
 }
 
 .left-float {
