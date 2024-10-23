@@ -56,6 +56,10 @@ section img {
   width: 100%;
   height: auto;
 }
+.resize-image{
+  max-width: 80%;
+  max-height: 400px;
+}
 
 .left-float {
   float: left;
