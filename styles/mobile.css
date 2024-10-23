@@ -67,10 +67,13 @@ section img {
   padding: 0 15px 15px 0;
   width: 50%;
 }
+#form{
+  width: 100%;
+}
 
 input[type="text"],
 input[type="email"] {
-  padding: 5px;
+  padding: 10px;
   font-size: 1.2rem;
 }
 

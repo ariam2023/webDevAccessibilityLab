@@ -34,7 +34,7 @@
             <img src="images/dishFive.jpg" alt="Jodrell Bank" />
           </p>
 
-          <form action="thank-you.html">
+          <form action="thank-you.html" id="form">
             <div>
               <p>Name:</p>
               <input
@@ -61,12 +61,14 @@
             </div>
             <div>
               <p>Are you interested in?</p>
+             <label for="interest"> 
               <select name="interest" id="interest">
                 <option value="frontend">Frontend Web Development</option>
                 <option value="backend">Backend Web Development</option>
                 <option value="appDev">Application Development</option>
                 <option value="other">Other</option>
               </select>
+            </label>
             </div>
             <div class="submitContainer">
               <input type="submit" value="Send" />
@@ -74,7 +76,7 @@
           </form>
         </section>
         <div class="sidebar">
-          <p><img src="images/square200px.png" /></p>
+          <p><img src="images/square200px.png" alt="Profile Image"/></p>
           <h2>Contact Details</h2>
           <address>My Address</address>
           <p>
